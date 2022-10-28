@@ -1,3 +1,4 @@
+
 function calcular() {
     let num = parseInt(document.getElementById("num").value);
     let num2 = parseInt(document.getElementById("num2").value);
@@ -29,19 +30,19 @@ function imagenes(){
     let cambiar = document.getElementById("cambiar");
 
     if (imagen == 1){
-        cambiar.innerHTML = '<img src="recursos/foto 1.jpg" alt="">';
+        cambiar.innerHTML = '<img src="recursos/foto1.jpg" alt="">';
     }
     else if (imagen == 2){
-        cambiar.innerHTML = '<img src="recursos/foto 2.jpg" alt="">';
+        cambiar.innerHTML = '<img src="recursos/foto2.jpg" alt="">';
     }
     else if (imagen == 3){
-        cambiar.innerHTML = '<img src="recursos/foto 3.jpg" alt="">';
+        cambiar.innerHTML = '<img src="recursos/foto3.jpg" alt="">';
     }
     else if (imagen == 4){
-        cambiar.innerHTML = '<img src="recursos/foto 4.jpg" alt="">';
+        cambiar.innerHTML = '<img src="recursos/foto4.jpg" alt="">';
     }
     else if (imagen == 5){
-        cambiar.innerHTML = '<img src="recursos/foto 5.jpg" alt="">';
+        cambiar.innerHTML = '<img src="recursos/foto5.jpg" alt="">';
     }
     
 }
@@ -56,5 +57,4 @@ function tabla() {
         document.write(multi + "x" + i + "=" + multiplicacion + "<br>");
     }
 }
-
 
